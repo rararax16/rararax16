@@ -9,8 +9,6 @@
 SaaS プロダクトの企画・開発から、リリース後の運用まで担当しています。<br/>
 仕事では AWS サーバーレスを使った開発・運用や、リリース時のテスト設計、本番監視に取り組んでいます。個人では Nuxt と Supabase で有料サービスを開発・運営しています。
 
-まず見てほしいもの → [aws-amplify にマージされた修正PR](https://github.com/aws-amplify/amplify-data/pull/768) ／ [claude-code-meter](https://github.com/rararax16/claude-code-meter)
-
 ---
 
 ## 今の仕事
