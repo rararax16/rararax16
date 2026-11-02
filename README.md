@@ -126,11 +126,13 @@ Google Workspace だけで完結する掲示板です。2020年に公開し、�
 
 ## 使用技術
 
-主に TypeScript と Vue / Nuxt を使っています。インフラは AWS サーバーレスが中心です。個人開発では Supabase を使った Web サービスや、Swift 製の macOS アプリも作っています。
+主に TypeScript と Vue / Nuxt を使っています。インフラは AWS サーバーレスが中心です。個人開発では Supabase を使った Web サービスや、Swift 製の macOS アプリも作っています。これまでに React・Next.js・Firebase・Google Apps Script なども使ってきました。
 
 <div align="center">
 
 <img src="https://skillicons.dev/icons?i=ts,vue,nuxtjs,nodejs,swift,aws,supabase,cloudflare,vercel,docker,git,github&theme=dark" />
+
+<img src="https://skillicons.dev/icons?i=js,react,nextjs,firebase,html,css,figma,notion&theme=dark" />
 
 <br/>
 
@@ -143,35 +145,16 @@ Google Workspace だけで完結する掲示板です。2020年に公開し、�
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
 <img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" />
 <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-
-</div>
-
-<details>
-<summary>以前使っていた技術</summary>
-
-<br/>
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=js,react,nextjs,firebase,html,css,figma,notion&theme=dark" />
-
-<br/>
-
 <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" />
 <img src="https://img.shields.io/badge/Budibase-000000?style=flat-square&logo=budibase&logoColor=white" />
 
 </div>
 
-</details>
-
 ---
 
+## GitHub Stats
+
 GitHub は2018年から利用しています。
-
-<details>
-<summary>GitHub Stats</summary>
-
-<br/>
 
 <div align="center">
 
@@ -189,8 +172,6 @@ GitHub は2018年から利用しています。
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=rararax16&theme=tokyonight&utcOffset=9" height="200" />
 
 </div>
-
-</details>
 
 <br/>
 
