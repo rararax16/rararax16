@@ -6,47 +6,25 @@
 
 </div>
 
----
+SaaS プロダクトの企画・開発から、リリース後の運用まで担当しています。<br/>
+仕事では AWS サーバーレスを使った開発・運用や、リリース時のテスト設計、本番監視に取り組んでいます。個人では Nuxt と Supabase で有料サービスを開発・運営しています。
 
-## About
-
-SaaS プロダクトの企画から、仕様・設計・リリース運用までを担当しています。
-AWS のサーバーレス構成の上で、コードを書くより **リリースが安全に回る仕組みを整える** 時間のほうが長いです。
-もとは社内の手作業を自動化するところから始めました。
-
-```yaml
-location:  Tokyo
-now:       SaaS プロダクトの企画 〜 リリース運用
-stack:     TypeScript / AWS Serverless (Amplify Gen2, Lambda, DynamoDB)
-doing:     開発フロー設計 / テスト設計・QA / Datadog での本番監視
-side:      macOS アプリ（Swift）、たまに OSS への PR
-```
+まず見てほしいもの → [aws-amplify にマージされた修正PR](https://github.com/aws-amplify/amplify-data/pull/768) ／ [claude-code-meter](https://github.com/rararax16/claude-code-meter)
 
 ---
 
-## Currently
+## 今の仕事
 
-- **AWS Serverless** — Amplify Gen2・Lambda・DynamoDB・Redshift を中心とした構成の設計と運用
-- **Release Ops** — スプリント運用、テスト設計、障害を「仕組み」で減らす取り組み
-- **Observability** — Datadog（RUM / Logs）での本番監視と、その自動化
-- **AI in the loop** — 企画から実装まで AI を組み込んだ開発フローの整備
+社内の手作業の自動化から始め、いまは次のことに取り組んでいます。
 
----
-
-## Timeline
-
-```text
-2026  ──  AWS / Swift / OSS      aws-amplify に修正PRがマージ、Claude Code Meter を公開
-2025  ──  Release Ops            スプリント運用・テスト設計・障害低減の仕組み化
-2024  ──  Docker / Budibase      社内ツールの内製化、コンテナ運用へ
-2022  ──  TypeScript / React     OOP・健康管理アプリ、React × Firebase で Twitter クローン
-2020  ──  GAS-SNS-BOARD          Google Workspace だけで動く掲示板アプリ ★4 / fork 7
-2019  ──  GAS-library            よく使う関数をライブラリ化、自動化の入り口
-```
+- Amplify Gen2・Lambda・DynamoDB・Redshift を中心とした AWS サーバーレス構成の設計・運用
+- スプリント運用、テスト設計、障害を減らすためのリリース運用の改善
+- Datadog の RUM・Logs を使った本番監視と、その自動化
+- 企画から実装まで、AI を活用する開発フローの整備
 
 ---
 
-## Open Source
+## OSS へのコントリビュート
 
 <div align="center">
 
@@ -56,64 +34,60 @@ side:      macOS アプリ（Swift）、たまに OSS への PR
 
 <br/>
 
-| Repository | 内容 | Status |
+| リポジトリ | 内容 | 状態 |
 | :--- | :--- | :--- |
-| [aws-amplify/amplify-data](https://github.com/aws-amplify/amplify-data/pull/768) | カスタムオペレーションで nullable なリスト引数が必須扱いになる不具合を修正 | **Merged** |
-| [heavysixer/node-pptx](https://github.com/heavysixer/node-pptx) | ヘルパー関数のリファクタとドキュメント整備 | Open |
-| [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | `v-text-field` の clearable 併用時の挙動をバグレポート | Reported |
-
-プロダクト開発で踏んだ不具合は、手元で回避策を書く前に上流へ直しに行くようにしています。
-
-<div align="center">
-
-<img src="https://img.shields.io/github/stars/rararax16?style=flat-square&logo=github&label=Total%20Stars&color=7AA2F7&labelColor=1A1B27" />
-<img src="https://img.shields.io/badge/Achievements-Pull%20Shark%20%C2%B7%20Pair%20Extraordinaire-7AA2F7?style=flat-square&logo=github&labelColor=1A1B27" />
-
-</div>
+| [aws-amplify/amplify-data](https://github.com/aws-amplify/amplify-data/pull/768) | カスタムオペレーションで、null を許容するリスト引数が必須扱いになる不具合を修正 | **Merged** |
+| [heavysixer/node-pptx](https://github.com/heavysixer/node-pptx) | ヘルパー関数のリファクタリングとドキュメント整備 | Open |
+| [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | `v-text-field` と `clearable` を併用したときの挙動について不具合を報告 | Reported |
 
 ---
 
-## Tech Stack
+## これまでの活動
 
-<div align="center">
-
-**Main**
-
-<img src="https://skillicons.dev/icons?i=ts,aws,react,nextjs,nodejs,swift,docker,git,github&theme=dark" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/AWS%20Amplify-FF9900?style=flat-square&logo=awsamplify&logoColor=white" />
-<img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
-<img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white" />
-<img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" />
-<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
-
-<br/><br/>
-
-**Also / Earlier**
-
-<img src="https://skillicons.dev/icons?i=js,vue,nuxtjs,firebase,html,css,figma,notion&theme=dark" />
-
-<br/>
-
-<img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" />
-<img src="https://img.shields.io/badge/Budibase-000000?style=flat-square&logo=budibase&logoColor=white" />
-
-</div>
+| 時期 | 活動 | やったこと |
+| :--- | :--- | :--- |
+| 2025–2026 | リリース運用 | スプリント運用・テスト設計を整備／aws-amplify に修正PRがマージ |
+| 2025–2026 | 個人開発 | Claude Code・Codex などの AI エージェントを使い、十数個のプロダクトを開発／有料サービス「とっておき」を本番公開 |
+| 2022–2024 | 個人開発・社内ツールの内製 | TypeScript・React で個人開発／Docker・Budibase で社内ツールを内製化 |
+| 2019–2020 | 手作業の自動化 | GAS-library で関数をライブラリ化／GAS-SNS-BOARD を公開（★4 / fork 7） |
 
 ---
 
-## Pick Up
+## 個人開発
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
+### とっておき
+
+LINE のトーク履歴から思い出の会話を選び、贈り物にできる縦動画のメッセージカードを作る有料サービスです。LINE ログイン、Stripe 決済、AI によるカード作成まで一人で開発し、公開・運営しています。
+
+<img src="https://img.shields.io/badge/Nuxt%204-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" />
+<img src="https://img.shields.io/badge/LINE-00C300?style=flat-square&logo=line&logoColor=white" />
+<img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
+
+### NLH ヘッズアップ
+
+1対1のポーカーでリアルタイムに対戦できる Web アプリです。配札と勝敗はサーバー側で決め、RLS（行単位のアクセス制御）で手札が本人にしか見えないようにしています。
+
+<img src="https://img.shields.io/badge/Nuxt%204-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase%20Realtime-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 ### [claude-code-meter](https://github.com/rararax16/claude-code-meter)
 
-Claude Code の使用量を Mac のメニューバーに常駐表示する Swift 製アプリ。
+Claude Code の使用量を Mac のメニューバーに常駐表示する Swift 製アプリです。ローカルのログだけで集計し、外部とは通信しません。
 
 <img src="https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white" />
 <img src="https://img.shields.io/github/stars/rararax16/claude-code-meter?style=flat-square&color=7AA2F7&labelColor=1A1B27" />
@@ -122,43 +96,82 @@ Claude Code の使用量を Mac のメニューバーに常駐表示する Swift
 </td>
 <td width="50%" valign="top">
 
-### [react-twitter-clone](https://github.com/rararax16/react-twitter-clone)
-
-React × Firebase で作った Twitter クローン。型と状態管理の整理を兼ねて書きました。
-
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" />
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### [GAS-SNS-BOARD](https://github.com/rararax16/GAS-SNS-BOARD)
 
-Google Workspace だけで完結する掲示板。2020年のものですが、いまも fork されています。
+Google Workspace だけで完結する掲示板です。2020年に公開し、いまも fork されています。
 
 <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" />
 <img src="https://img.shields.io/github/stars/rararax16/GAS-SNS-BOARD?style=flat-square&color=7AA2F7&labelColor=1A1B27" />
 <img src="https://img.shields.io/github/forks/rararax16/GAS-SNS-BOARD?style=flat-square&color=7AA2F7&labelColor=1A1B27" />
 
 </td>
-<td width="50%" valign="top">
-
-### [GAS-library](https://github.com/rararax16/GAS-library)
-
-GAS でよく使う関数をまとめたもの。2019年、自動化の入り口でした。
-
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/github/stars/rararax16/GAS-library?style=flat-square&color=7AA2F7&labelColor=1A1B27" />
-
-</td>
 </tr>
 </table>
 
+<details>
+<summary>そのほかの公開プロダクト・リポジトリ</summary>
+
+<br/>
+
+| 名前 | 内容 | 技術 |
+| :--- | :--- | :--- |
+| [Pocket Poker](https://pocketpoker-3pgl.vercel.app) | スマホでプリフロップの判断を練習するアプリ | Vue / Nuxt |
+| [アニルート](https://aniroute.vercel.app) | アニメを見る順番のガイド | JavaScript |
+| [react-twitter-clone](https://github.com/rararax16/react-twitter-clone) | React と Firebase で作った Twitter クローン | TypeScript |
+| [GAS-library](https://github.com/rararax16/GAS-library) | GAS でよく使う関数をまとめたライブラリ。手作業の自動化を始めたころに作成 | JavaScript |
+
+</details>
+
 ---
 
-## GitHub Stats
+## 使用技術
+
+主に TypeScript と Vue / Nuxt を使っています。インフラは AWS サーバーレスが中心です。個人開発では Supabase を使った Web サービスや、Swift 製の macOS アプリも作っています。
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=ts,vue,nuxtjs,nodejs,swift,aws,supabase,cloudflare,vercel,docker,git,github&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/AWS%20Amplify%20Gen2-FF9900?style=flat-square&logo=awsamplify&logoColor=white" />
+<img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
+<img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
+<img src="https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white" />
+<img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" />
+<img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
+<img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" />
+<img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" />
+
+</div>
+
+<details>
+<summary>以前使っていた技術</summary>
+
+<br/>
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=js,react,nextjs,firebase,html,css,figma,notion&theme=dark" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=flat-square&logo=googleappsscript&logoColor=white" />
+<img src="https://img.shields.io/badge/Budibase-000000?style=flat-square&logo=budibase&logoColor=white" />
+
+</div>
+
+</details>
+
+---
+
+GitHub は2018年から利用しています。
+
+<details>
+<summary>GitHub Stats</summary>
+
+<br/>
 
 <div align="center">
 
@@ -166,10 +179,6 @@ GAS でよく使う関数をまとめたもの。2019年、自動化の入り口
 <img src="https://img.shields.io/github/followers/rararax16?style=for-the-badge&logo=github&label=Followers&color=7AA2F7&labelColor=1A1B27" />
 <img src="https://img.shields.io/badge/Public%20Repos-8-7AA2F7?style=for-the-badge&logo=github&labelColor=1A1B27" />
 <img src="https://img.shields.io/badge/On%20GitHub%20since-2018-7AA2F7?style=for-the-badge&logo=github&labelColor=1A1B27" />
-
-</div>
-
-<div align="center">
 
 <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=rararax16&theme=tokyonight" width="98%" />
 
@@ -181,7 +190,9 @@ GAS でよく使う関数をまとめたもの。2019年、自動化の入り口
 
 </div>
 
----
+</details>
+
+<br/>
 
 <div align="center">
 
