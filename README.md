@@ -34,9 +34,9 @@ SaaS プロダクトの企画・開発から、リリース後の運用まで担
 
 | リポジトリ | 内容 | 状態 |
 | :--- | :--- | :--- |
-| [aws-amplify/amplify-data](https://github.com/aws-amplify/amplify-data/pull/768) | カスタムオペレーションで、null を許容するリスト引数が必須扱いになる不具合を修正 | **Merged** |
-| [heavysixer/node-pptx](https://github.com/heavysixer/node-pptx) | ヘルパー関数のリファクタリングとドキュメント整備 | Open |
-| [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | `v-text-field` と `clearable` を併用したときの挙動について不具合を報告 | Reported |
+| [aws-amplify/amplify-data](https://github.com/aws-amplify/amplify-data/pull/768) | カスタムオペレーションで、null を許容するリスト引数が必須扱いになる不具合を修正 | <img src="https://img.shields.io/badge/Merged-8250DF?style=flat-square&logo=github&logoColor=white" alt="Merged" /> |
+| [heavysixer/node-pptx](https://github.com/heavysixer/node-pptx) | ヘルパー関数のリファクタリングとドキュメント整備 | <img src="https://img.shields.io/badge/Open-1F883D?style=flat-square&logo=github&logoColor=white" alt="Open" /> |
+| [vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify) | `v-text-field` と `clearable` を併用したときの挙動について不具合を報告 | <img src="https://img.shields.io/badge/Reported-6E7781?style=flat-square&logo=github&logoColor=white" alt="Reported" /> |
 
 ---
 
