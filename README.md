@@ -128,14 +128,19 @@ Google Workspace だけで完結する掲示板です。2020年に公開し、�
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,vue,nuxtjs,nodejs,swift,aws,supabase,cloudflare,vercel,docker,git,github,js,react,nextjs,firebase,html,css,figma,notion&perline=10&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,vue,nuxtjs,nodejs,nestjs,swift,aws,supabase,cloudflare,vercel,docker,git,github,js,react,nextjs,firebase,html,css,figma,notion&perline=7&theme=dark" />
 
 <br/>
 
-<img src="https://img.shields.io/badge/AWS%20Amplify%20Gen2-FF9900?style=flat-square&logo=awsamplify&logoColor=white" />
-<img src="https://img.shields.io/badge/Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white" />
-<img src="https://img.shields.io/badge/DynamoDB-4053D6?style=flat-square&logo=amazondynamodb&logoColor=white" />
-<img src="https://img.shields.io/badge/Redshift-8C4FFF?style=flat-square&logo=amazonredshift&logoColor=white" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AWSAmplify.svg" width="48" alt="AWS Amplify" title="AWS Amplify" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AWSLambda.svg" width="48" alt="AWS Lambda" title="AWS Lambda" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AWSAppSync.svg" width="48" alt="AWS AppSync" title="AWS AppSync" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonDynamoDB.svg" width="48" alt="Amazon DynamoDB" title="Amazon DynamoDB" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonSimpleStorageService.svg" width="48" alt="Amazon S3" title="Amazon S3" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonRedshift.svg" width="48" alt="Amazon Redshift" title="Amazon Redshift" />
+
+<br/>
+
 <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" />
 <img src="https://img.shields.io/badge/Cloudflare%20Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" />
 <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" />
