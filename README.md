@@ -128,7 +128,7 @@ Google Workspace だけで完結する掲示板です。2020年に公開し、�
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=ts,vue,nuxtjs,nodejs,nestjs,swift,aws,supabase,cloudflare,vercel,docker,git,github,js,react,nextjs,firebase,html,css,figma,notion&perline=7&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,vue,nuxtjs,nodejs,nestjs,swift,aws,terraform,supabase,cloudflare,vercel,docker,git,github,js,react,nextjs,firebase,html,css,figma,notion&perline=11&theme=dark" />
 
 <br/>
 
