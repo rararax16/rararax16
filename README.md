@@ -138,6 +138,9 @@ Google Workspace だけで完結する掲示板です。2020年に公開し、�
 <img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonDynamoDB.svg" width="48" alt="Amazon DynamoDB" title="Amazon DynamoDB" />
 <img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonSimpleStorageService.svg" width="48" alt="Amazon S3" title="Amazon S3" />
 <img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonRedshift.svg" width="48" alt="Amazon Redshift" title="Amazon Redshift" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonEC2.svg" width="48" alt="Amazon EC2" title="Amazon EC2" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonElasticContainerService.svg" width="48" alt="Amazon ECS" title="Amazon ECS" />
+<img src="https://cdn.jsdelivr.net/npm/aws-icons@3.2.0/icons/architecture-service/AmazonElasticKubernetesService.svg" width="48" alt="Amazon EKS" title="Amazon EKS" />
 
 <br/>
 
